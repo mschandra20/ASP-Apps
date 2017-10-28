@@ -34,7 +34,7 @@ textarea {
 /**//**//**//**//**//**//**//**//**//**//**//**/
 .BMI {
     padding: 5px;
-    /*display: grid;*/
+    display: grid;
     width: 100%;
     height: 600px;
     padding: 18px 450px;

@@ -76,14 +76,14 @@ namespace BMICal
 
                 BMIList.Add(BMIObject);
 
-                foreach (var bmiElement in BMIList)
-                {
-                    lblPrevious.Text = " \n "+bmiElement.Foot.ToString() + " Feet" +
-                                       bmiElement.Inch.ToString() + " Inch" +
-                                       bmiElement.Weight.ToString() + " Kg" +
-                                       bmiElement.BMI;
+                //foreach (var bmiElement in BMIList)
+                //{
+                //    lblPrevious.Text = " \n "+bmiElement.Foot.ToString() + " Feet" +
+                //                       bmiElement.Inch.ToString() + " Inch" +
+                //                       bmiElement.Weight.ToString() + " Kg" +
+                //                       bmiElement.BMI;
                                        
-                }
+                //}
 
             }
 

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="About" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="BMICal.About" %>
+﻿<%@ Page Title="About" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="BMICalculator.aspx.cs" Inherits="BMICal.About" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server" >
     <h1>BMI Calculator</h1>
@@ -35,7 +35,7 @@
     <%--</form>--%>
 
         
-                <asp:Label ID="lblPrevious" runat="server" ></asp:Label>
+                <%--<asp:Label ID="lblPrevious" runat="server" ></asp:Label>--%>
 
            
     </div>
