@@ -3,7 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server" >
     <h1>BMI Calculator</h1>
     <%--<form class="BMI">--%>
-    <div class="BMI">
+    <div class="BMI well">
 
         <asp:Label ID="lblName" runat="server" Text="Name"></asp:Label>
         <asp:TextBox ID="txtName" runat="server"></asp:TextBox>
@@ -34,6 +34,10 @@
         <asp:Button ID="btnBMICalculator" runat="server" Text="Calculate" OnClick="btnBMICalculator_Click" />
     <%--</form>--%>
 
+        
+                <asp:Label ID="lblPrevious" runat="server" ></asp:Label>
+
+           
     </div>
 
 
