@@ -31,7 +31,7 @@
         <asp:Label ID="lblResult" runat="server"></asp:Label>
         <br>
 
-        <asp:Button ID="btnBMICalculator" runat="server" Text="Button" OnClick="btnBMICalculator_Click" />
+        <asp:Button ID="btnBMICalculator" runat="server" Text="Calculate" OnClick="btnBMICalculator_Click" />
     <%--</form>--%>
 
     </div>
