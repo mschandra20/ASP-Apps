@@ -76,6 +76,7 @@ namespace BMICal
 
                 BMIList.Add(BMIObject);
 
+
                 //foreach (var bmiElement in BMIList)
                 //{
                 //    lblPrevious.Text = " \n "+bmiElement.Foot.ToString() + " Feet" +
